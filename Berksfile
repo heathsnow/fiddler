@@ -1,4 +1,4 @@
-chef_api
+chef_api :config
 
 metadata
 cookbook 'dotnetframework', github: 'daptiv/dotnetframework'
