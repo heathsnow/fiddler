@@ -7,6 +7,7 @@
 *.un~
 /cookbooks
 version.txt
+Berksfile.lock
 
 # Bundler
 bin/*
