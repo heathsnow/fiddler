@@ -1,5 +1,5 @@
-chef_api :config
+source 'https://supermarket.chef.io'
 
 metadata
 cookbook 'dotnetframework', github: 'daptiv/dotnetframework'
-cookbook 'minitest-handler', '~> 1.3.1'
+cookbook 'minitest-handler'
