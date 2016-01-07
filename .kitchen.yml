@@ -7,9 +7,9 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: windows2012r2
+  - name: windows2012r2_chef12
     driver:
-      box: daptiv/windows2012r2_chef11
+      box_url: 'http://artrepo.daptiv.com:8081/artifactory/vagrant-local/virtualbox_windows-2012r2_chef-12.5.1_1.0.23.box'
     driver_config:
       communicator: winrm
     transport:
