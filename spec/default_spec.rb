@@ -1,6 +1,6 @@
 describe 'fiddler::default' do
   let(:chef_run) do
-    ChefSpec::Runner.new do |node|
+    ChefSpec::ServerRunner.new do |node|
     end.converge(described_recipe)
   end
 
