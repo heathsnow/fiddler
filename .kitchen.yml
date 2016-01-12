@@ -7,9 +7,9 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: windows2012r2
+  - name: windows2012r2_chef12
     driver:
-      box: daptiv/windows2012r2_chef11
+      box_url: <%= ENV['WINDOWS_BOX_URL'] %>
     driver_config:
       communicator: winrm
     transport:

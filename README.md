@@ -1,11 +1,12 @@
+[![Build Status](https://secure.travis-ci.org/daptiv/fiddler.png)](http://travis-ci.org/daptiv/fiddler)
+
 # Fiddler cookbook
 
 Installs Fiddler
 
-# Requirements
+## Requirements
 
-Platform
---------
+### Platform
 
 * Windows 7
 * Windows Server 2008
@@ -13,28 +14,37 @@ Platform
 * Windows Server 2012
 * Windows Server 2012 R2
 
-Cookbooks
----------
+## Cookbooks
 
 Wix requires the .NET framework 4 (4.0, 4.5, 4.5.1, 4.5.2, or 4.6) which can be
 installed via another cookbook of your choosing.
 
-# Usage
+## Usage
 
-Include the default recipe in your run list.
+### fiddler::default
 
-# Attributes
+Include `fiddler` in your node's `run_list`:
 
-default
--------
+```json
+{
+  "run_list": [
+    "recipe[fiddler::default]"
+  ]
+}
+```
 
-# Recipes
+## Attributes
 
-default
--------
+### default
+- default['fiddler']['url']
+- default['fiddler']['checksum']
+
+## Recipes
+
+### default
 
 Installs Fiddler4
 
-# Author
+## Author
 
-Author:: Daptiv Engineering
+Author:: Changepoint Engineering
