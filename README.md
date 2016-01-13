@@ -1,3 +1,4 @@
+[![Cookbook Version](http://img.shields.io/cookbook/v/fiddler.svg)](https://supermarket.chef.io/cookbooks/fiddler)
 [![Build Status](https://secure.travis-ci.org/daptiv/fiddler.png)](http://travis-ci.org/daptiv/fiddler)
 
 # Fiddler cookbook
