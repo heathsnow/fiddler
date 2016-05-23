@@ -21,4 +21,4 @@
 default['fiddler']['url'] =
   'http://www.telerik.com/docs/default-source/fiddler/fiddler4setup.exe?sfvrsn=2'
 default['fiddler']['checksum'] =
-  '8aa2d38673607b7514ecc86128b7f9a16d4e20d5c29e4ec5315c3f507c39f198'
+  '62d2c12e9fef10ab36b4e08590153b71d4263c418bb57e42f4ebfc0463d83145'
