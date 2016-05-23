@@ -19,4 +19,4 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[fiddler::default]
+      - recipe[fiddler]
