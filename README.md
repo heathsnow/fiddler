@@ -1,5 +1,5 @@
 [![Cookbook Version](http://img.shields.io/cookbook/v/fiddler.svg)](https://supermarket.chef.io/cookbooks/fiddler)
-[![Build Status](https://secure.travis-ci.org/daptiv/fiddler.png)](http://travis-ci.org/daptiv/fiddler)
+
 
 # Fiddler cookbook
 
@@ -24,15 +24,7 @@ installed via another cookbook of your choosing.
 
 ### fiddler::default
 
-Include `fiddler` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[fiddler::default]"
-  ]
-}
-```
+Include `fiddler` in your node's run list.
 
 ## Attributes
 
@@ -48,4 +40,4 @@ Installs Fiddler4
 
 ## Author
 
-Author:: Changepoint Engineering
+Author:: Shawn Neal (sneal@sneal.net)

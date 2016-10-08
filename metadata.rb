@@ -1,10 +1,8 @@
-name 'fiddler'
-maintainer 'Changepoint'
-maintainer_email 'dl_teamengineering@daptiv.com'
-license 'All rights reserved'
-description 'Installs Fiddler'
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-ver_path = File.join(File.dirname(__FILE__), 'version.txt')
-version File.exist?(ver_path) ? IO.read(ver_path).chomp : '0.1.0'
-supports 'windows'
-depends 'windows', '>= 1.2.6'
+name             'fiddler'
+maintainer       'Shawn Neal'
+maintainer_email 'sneal@sneal.net'
+source_url       'https://github.com/windowschefcookbooks/fiddler'
+issues_url       'https://github.com/windowschefcookbooks/fiddler/issues'
+license          'Apache 2.0'
+description      'Installs/Configures Fiddler'
+version          '1.0.0'
