@@ -1,5 +1,5 @@
 [![Cookbook Version](http://img.shields.io/cookbook/v/fiddler.svg)](https://supermarket.chef.io/cookbooks/fiddler)
-
+[![Build status](https://ci.appveyor.com/api/projects/status/ppw4kvtacxv62n8d/branch/master?svg=true)](https://ci.appveyor.com/project/ChefWindowsCookbooks65871/fiddler/branch/master)
 
 # Fiddler cookbook
 
