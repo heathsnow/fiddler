@@ -5,9 +5,9 @@
 
 Installs Fiddler
 
-## Requirements
+# Requirements
 
-### Platform
+## Platform
 
 * Windows 7
 * Windows Server 2008
@@ -15,22 +15,20 @@ Installs Fiddler
 * Windows Server 2012
 * Windows Server 2012 R2
 
-## Cookbooks
+## .NET 4
 
-Wix requires the .NET framework 4 (4.0, 4.5, 4.5.1, 4.5.2, or 4.6) which can be
-installed via another cookbook of your choosing.
+Fiddler requires the .NET framework 4 (4.0, 4.5.x, or 4.6.x) which can be installed via another cookbook of your choosing.
 
-## Usage
+# Usage
 
-### fiddler::default
+Include `fiddler::default` in your node's run list.
 
-Include `fiddler` in your node's run list.
+# Attributes
 
-## Attributes
+## Optional
 
-### default
-- default['fiddler']['url']
-- default['fiddler']['checksum']
+* `node['fiddler']['url']` - The full download URL to the installer executable, defaults to http://www.telerik.com/docs/default-source/fiddler/fiddler4setup.exe?sfvrsn=2.
+* `node['fiddler']['checksum']` - The SHA256 of the installer executable file.
 
 ## Recipes
 
