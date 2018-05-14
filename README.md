@@ -5,6 +5,10 @@
 
 Installs Fiddler
 
+## DEPRECATION
+
+This cookbook is deprecated.
+
 # Requirements
 
 ## Platform
